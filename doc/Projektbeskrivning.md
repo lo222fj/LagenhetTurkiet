@@ -32,12 +32,7 @@ Jag vet inte idag hur jag ska kunna ta emot formuläret så det kommer inte att 
 ## Förstudier
 Jag har tittat runt på andra sidor med lägenhetsuthyrningar. De som hyr ut privat har sidor som jag gissar är byggda i
 någon form av verktyg. Flera har bildspel och bildmontage som fungerar mer eller mindre bra. Det finns även kontaktformulär.
-
-
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+De funktionerna vill jag i framtiden ha möjlighet till. De standardiserade utseendet vill jag komma ifrån.
 
 ## Tidsplanering
 
