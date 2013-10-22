@@ -1,7 +1,7 @@
 
-# Projektnamn här
+# Sida för marknadsföring och uthyrning av lägenhet i Turkiet
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[lo222fj](https://github.com/lo222fj)
 
 *Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
 
@@ -10,6 +10,9 @@ Projektmedlemmar:
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
+Sida för att marknadsföra en semesterlägenhet i Turkiet. Sidan ska ge information om lägenheten, området och orten. Den ska även informera om
+priser och ge möjlighet att anmäla sitt intresse för uthyrning genom att fylla i ett formulär. Bilder kommer att vara en central del och i de flesta fall en
+del av innehållet då de visar det som beskrivs såsom lägenhet, området o s v
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
 
 ## Tekniker
