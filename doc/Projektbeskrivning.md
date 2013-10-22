@@ -1,24 +1,40 @@
-
-# Projektnamn här
+# Sida för marknadsföring och uthyrning av lägenhet i Turkiet
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
-
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
+[lo222fj](https://github.com/lo222fj)
 
 [Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Sida för att marknadsföra en semesterlägenhet i Turkiet. 
+
+Sidan ska ge information om lägenheten, området, orten och tips på transportmöjligheter. 
+
+Sidan ska även informera om priser och ge möjlighet att anmäla sitt intresse för uthyrning genom att fylla i ett formulär. 
+Bilder kommer att vara en central del och i de flesta fall en del av innehållet då de visar det som beskrivs såsom lägenhet,
+området o s v.
+
+Lägenheten är min egen och tänkt som en kombinerad semesterlägenhet för oss och som en investering för uthyrning. Att
+marknadsföra den på internet är idag det naturliga sättet. Jag vill därför göra en sida för att göra det!
+
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+Jag kommer att använda mig av Html5 och CSS3. Jag har även laddat hem Sass och kommer att börja använda några funktioner
+under detta projekt.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+I framtiden kommer jag troligtvis att vilja ha bildspel för att kunna visa fler bilder. Nu visar jag ett mindre antal.
+
+Texterna hålls begränsade.
+
+Jag vet inte idag hur jag ska kunna ta emot formuläret så det kommer inte att skickas på riktigt.
 
 ## Förstudier
+Jag har tittat runt på andra sidor med lägenhetsuthyrningar. De som hyr ut privat har sidor som jag gissar är byggda i
+någon form av verktyg. Flera har bildspel och bildmontage som fungerar mer eller mindre bra. Det finns även kontaktformulär.
+
+
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
 
 ## *Förändra*
