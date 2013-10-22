@@ -2,9 +2,8 @@
 Projektmedlemmar: 
 [lo222fj](https://github.com/lo222fj)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](http://lo222fj.github.io/ProjektskelettHT13)
 
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
 Sida för att marknadsföra en semesterlägenhet i Turkiet. 
@@ -41,5 +40,7 @@ någon form av verktyg. Flera har bildspel och bildmontage som fungerar mer elle
 *Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
 
 ## Tidsplanering
+
+[Planering](https://docs.google.com/a/student.lnu.se/spreadsheet/ccc?key=0AiKjyGEQlPIvdGZNT0Fub21GQzc5UnNsLUZVNHhyLWc#gid=0)
 *Länka till tidsplaneringen här, eller fäll in som en bild.*
 
