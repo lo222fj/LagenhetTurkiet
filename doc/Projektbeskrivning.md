@@ -2,7 +2,7 @@
 Projektmedlemmar: 
 [lo222fj](https://github.com/lo222fj)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](http://lo222fj.github.io/ProjektskelettHT13)
 
 ## Beskrivning av projektet
 
@@ -28,6 +28,8 @@ Texterna hålls begränsade.
 
 Jag vet inte idag hur jag ska kunna ta emot formuläret så det kommer inte att skickas på riktigt.
 
+Tra la la
+
 ## Förstudier
 Jag har tittat runt på andra sidor med lägenhetsuthyrningar. De som hyr ut privat har sidor som jag gissar är byggda i
 någon form av verktyg. Flera har bildspel och bildmontage som fungerar mer eller mindre bra. Det finns även kontaktformulär.
@@ -36,6 +38,4 @@ De funktionerna vill jag i framtiden ha möjlighet till. De standardiserade utse
 ## Tidsplanering
 
 [Planering](https://docs.google.com/a/student.lnu.se/spreadsheet/ccc?key=0AiKjyGEQlPIvdGZNT0Fub21GQzc5UnNsLUZVNHhyLWc#gid=0)
-
-
 
