@@ -37,5 +37,5 @@ De funktionerna vill jag i framtiden ha möjlighet till. De standardiserade utse
 ## Tidsplanering
 
 [Planering](https://docs.google.com/a/student.lnu.se/spreadsheet/ccc?key=0AiKjyGEQlPIvdGZNT0Fub21GQzc5UnNsLUZVNHhyLWc#gid=0)
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+
 
