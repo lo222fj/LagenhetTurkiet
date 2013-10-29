@@ -3,6 +3,9 @@
 $font-main: 'Arapey', serif;
 $font-header: 'Julius Sans One', sans-serif;
 $font-special: 'Nothing You Could Do', cursive;
+$color-darkest: #507F95;
+$color-lighter: #9BBFD7;
+$color-lightest: #f2e3cd;
 
 @mixin font {
     font-family: $font-header;
@@ -13,6 +16,7 @@ $font-special: 'Nothing You Could Do', cursive;
 body{
     font-size: 100%;
     font-family: $font-main;
+    color: $color-darkest;
 }
 .container{
     max-width: 960px;
@@ -40,6 +44,7 @@ h3{
 img{
     width: 100%;
 }
+
     
 nav{
     ul{
@@ -53,5 +58,12 @@ nav{
         padding: 0.5em 0.2em;
         text-decoration: none;
         @include font;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .active{
+        background-color: $color-lighter;
+        color: #fff;
     }
 }
