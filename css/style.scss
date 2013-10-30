@@ -3,10 +3,14 @@
 $font-main: 'Arapey', serif;
 $font-header: 'Julius Sans One', sans-serif;
 $font-special: 'Nothing You Could Do', cursive;
-$color-darkest: #507F95;
-$color-lighter: #9BBFD7;
+//blue
+//$color-darkest: #425059;
+//$color-lighter: #A8B6BF;
 $color-lightest: #f2e3cd;
-
+//sand
+$color-darkest: #3D222E;
+$color-lighter: #71354E;
+//$color-lightest: #f2e3cd;
 @mixin font {
     font-family: $font-header;
     font-weight: normal;
@@ -23,11 +27,12 @@ body{
     margin: auto;
 }
 main{
-    line-height: 130%;
-    p{
+    line-height: 140%;
+    p, li{
         letter-spacing: 0.1em;
         font-size: 120%;
     }
+
 }
 h1{
     font-size: 2em;
@@ -38,24 +43,40 @@ h2{
      @include font;
 }
 h3{
-    font-size: 1.2;
+    font-size: 1.2em;
     @include font;
 }
 img{
     width: 100%;
 }
-
+a{
+    color: $color-darkest;
+}
+header{
+    padding: 0.5em 0;   
+    border-top: double 0.2em $color-lighter;
+    border-bottom: double 0.2em $color-lighter;
+    h1{
+     margin:0;
+     }
+     h2{
+     margin: 0;
+     font-size: 1em;
+     font-style: italic;
+     text-transform: none;
+     }
+}
     
 nav{
     ul{
         margin:0;
-        padding: 0;
+        padding: 1em 0 0 0;
         list-style: none;
      }
     li{display: inline-block;}
     a{
         display: block;
-        padding: 0.5em 0.2em;
+        padding: 0em 0.2em 0.5em 0em;
         text-decoration: none;
         @include font;
     }
@@ -63,7 +84,22 @@ nav{
         text-decoration: underline;
     }
     .active{
-        background-color: $color-lighter;
-        color: #fff;
+        font-weight: bold;
+        font-size: 110%;
     }
+}
+.submain, .subsection{
+    padding-top: 1em;
+    border-top: 0.1em double $color-lighter;
+    img{
+        border: 0.2em solid $color-lighter;
+    }
+}
+.top{
+    padding-top: 1em;
+}
+footer {
+     padding-top: 1em;
+    border-top: 0.1em double $color-lighter;
+    text-align: center;
 }
