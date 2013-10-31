@@ -46,9 +46,7 @@ h3{
     font-size: 1.2em;
     @include font;
 }
-img{
-    width: 100%;
-}
+
 a{
     color: $color-darkest;
 }
@@ -91,15 +89,73 @@ nav{
 .submain, .subsection{
     padding-top: 1em;
     border-top: 0.1em double $color-lighter;
-    img{
-        border: 0.2em solid $color-lighter;
-    }
+    border: solid green;//TEST
+   
 }
 .top{
     padding-top: 1em;
-}
+    border: solid blue;//TEST
+    }
+    .center{
+        border: 0.2em solid $color-lighter;
+    }
+    .container{
+        border: solid red;//TEST
+    }
 footer {
-     padding-top: 1em;
-    border-top: 0.1em double $color-lighter;
-    text-align: center;
+        padding-top: 1em;
+        border-top: 0.1em double $color-lighter;
+        text-align: center;
+        font-size: 110%;
 }
+
+
+
+/*Smartphones- skärmar max 480px */
+ @media only screen and (max-width:480px) {
+     .container img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    } 
+    
+    .container {
+        padding: 0 0.5em;
+    }
+/*Formulär */
+   form{
+        margin-top: 1em;
+   
+        label {
+            text-align: left;
+            display: inline;
+            clear: left;
+        }
+        input, textarea, select {
+            width: 90%;
+            margin-bottom: 0.7em;
+        }
+   }
+ }
+ 
+ @media only screen and (min-width:480px) {
+    form{
+        width: 100%;
+
+        label {
+         text-align: right;
+         display: block;
+         float: left;
+         padding-right: 1em;
+            clear: left;
+            width: 150px;
+         }
+
+        input, textarea {
+            width: 300px;
+            margin-bottom: 1em;
+        }
+    }
+ }
+    
+ 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Julius+Sans+One|Arapey);
 body {
   font-size: 100%;
@@ -31,9 +32,6 @@ h3 {
   font-family: "Julius Sans One", sans-serif;
   font-weight: normal;
   text-transform: uppercase; }
-
-img {
-  width: 100%; }
 
 a {
   color: #3d222e; }
@@ -71,14 +69,55 @@ nav .active {
 
 .submain, .subsection {
   padding-top: 1em;
-  border-top: 0.1em double #71354e; }
-  .submain img, .subsection img {
-    border: 0.2em solid #71354e; }
+  border-top: 0.1em double #71354e;
+  border: solid green; }
 
 .top {
-  padding-top: 1em; }
+  padding-top: 1em;
+  border: solid blue; }
+
+.center {
+  border: 0.2em solid #71354e; }
+
+.container {
+  border: solid red; }
 
 footer {
   padding-top: 1em;
   border-top: 0.1em double #71354e;
-  text-align: center; }
+  text-align: center;
+  font-size: 110%; }
+
+/*Smartphones- skärmar max 480px */
+@media only screen and (max-width: 480px) {
+  .container img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; }
+
+  .container {
+    padding: 0 0.5em; }
+
+  /*Formulär */
+  form {
+    margin-top: 1em; }
+    form label {
+      text-align: left;
+      display: inline;
+      clear: left; }
+    form input, form textarea, form select {
+      width: 90%;
+      margin-bottom: 0.7em; } }
+@media only screen and (min-width: 480px) {
+  form {
+    width: 100%; }
+    form label {
+      text-align: right;
+      display: block;
+      float: left;
+      padding-right: 1em;
+      clear: left;
+      width: 150px; }
+    form input, form textarea {
+      width: 300px;
+      margin-bottom: 1em; } }

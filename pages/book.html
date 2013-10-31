@@ -53,28 +53,53 @@
             </nav>
             <main>
                 <article>
-                    <img class="center" src="../pics/3oc_omradet_0174.jpg" alt="Strand och hav vid stranden i Avsallar med hotell Hilton i bakgrunden"
+                    <img class="center" src="../pics/1_3utsikt_moske_solnedg_6816.jpg" alt="Utsikt mot moske i solnedgång från lägenhet i Orion City i Avsallar"
                     />
                     <section class="top">
-   
                         <h2>Priser</h2>
                         <h3>Högsäsong</h3>
-                        <p>Priser i högsäsong</p>
+                        <p>Högsäsong 1 april - 31 oktober</p>
+                        <ul>
+                            <li>1 vecka: Pris 3 000 kr</li>
+                            <li>För långtidshyra gäller överenskommet pris</li>
+                        </ul>
                         <h3>Lågsäsong</h3>
-                        <p></p>
+                        <p>Lågsäsong 1 november - 31 mars</p>
+                        <ul>
+                            <li>1 vecka: Pris 2 500 kr</li>
+                            <li>För långtidshyra gäller överenskommet pris</li>
+
+                        </ul>
                         <h3>Övrig information</h3>
-                        <p>Städning tillkommer. Tillgång till kontaktperson på plats. El för XX lira
-                            ingår</p>
+                        <p>Till priset kommer kostnad för obligatorisk städning.</p>
+                        <p>I priset ingår tillgång till svensk och turkisktalande kontaktperson på
+                            plats.</p>
                     </section>
                 </article>
                 <article>
                     <section class="subsection">
                         <h2>Transport</h2>
                         <h3>Flyg</h3>
-                        <p>Flygplatser. Flygbolag.</p>
+                        <p>Två flygplatser finns i området. Störst är Antalya airport men den relativt
+                            nya flygplatsen Gazipasa får hela tiden fler avgångar. Både reguljärflyg
+                            och flygstolar hos charterbolagen är alternativ för att ta sig till dessa
+                            flygplatser. Många avgångar finns hos flygbolagen
+                            <a href="www.flypgs.com"
+                            alt="länk till flygbolaget Pegasus, www.flypgs.com">Pegasus</a>och
+                            <a href="http://www.turkishairlines.com/" alt="Länk till flygbolaget Turkish Airlines, http://www.turkishairlines.com/">
+                                Turkish Airlines.
+                            </a>
+                        </p>
                         <h3>Taxi och hyrbil</h3>
-                        <p>Taxi kan bokas via oss. Annars tips. 7-24 ...?</p>
-                        <p>Hyrbil</p>
+                        <p>Taxi kan bokas via oss för från 50 euro. Ett annat tips är ett mellanting
+                        mellan taxi och buss finns hos <a href ="http://www.724transfer.com/" alt= "Länk till 724transfer, http://www.724transfer.com/" > 724transfer.com</a>
+                        som kör kollektiv transfer enligt fastställd tidtabell. Fordonets storlek anpassas til
+                        hur många som bokat in sig och det gör även antalet stopp på vägen.</p>
+                        <p>Hyrbil kan bokas för hämtning och lämning på flygplatsen. Det kan
+                            vara ett smidigt alternativ att ta sig till och från flygplatsen
+                            för den som tänkt hyra bil och se lite av omgivningarna också under
+                            resan.
+                        </p>
                     </section>
                 </article>
                 <article>
@@ -88,8 +113,35 @@
                         <h3>Bokning och frågor</h3>
                         <p>Har du frågor eller vill boka lägenheten? Kontakta oss genom att fylla
                             i formuläret nedan.</p>
-                        <form></form>
                     </section>
+                    <form id="kontaktformular" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"
+                    method="post">
+                        <fieldset id="kontakt">
+                            <legend>Kontakta och boka</legend>
+                            <label for="namn">Namn</label>
+                            <input type="text" id="namn" />
+                            <br/>
+                            <label for="mail">Mailadress</label>
+                            <input type="email" id="mail" />
+                            <br/>
+                            <label for="telefon">Telefonnummer</label>
+                            <input type="tel" id="telefon" />
+                            <br/>
+                            <label for="meddelande">Meddelande</label>
+                            <textarea class="dataFromCustomer" name="meddelande"
+                            id="meddelande" placeholder="Lämna gärna ett meddelande"></textarea>
+                        </fieldset>
+                        <fieldset id="bokning">
+                            <legend>Bokning</legend>
+                            <label for="arrival">Önskat ankomstdatum</label>
+                            <input type="date" id="arrival" />
+                            <br/>
+                            <label for="departure">Önskat avresedatum</label>
+                            <input type="date" id="departure" />
+                        </fieldset>
+                        <input class="button" type="submit" name="skicka" value="Skicka meddelande"
+                        />
+                    </form>
                 </article>
             </main>
             <footer>
