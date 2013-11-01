@@ -92,19 +92,15 @@ nav{
 }
 .submain, .subsection{
     padding-top: 1em;
-    border-top: 0.1em double $color-lighter;
-    border: solid green;//TEST
-   
+
 }
 .top{
     padding-top: 1em;
-    border: solid blue;//TEST
     }
     .center{
         border: 0.2em solid $color-lighter;
     }
     .container{
-        border: solid red;//TEST
     }
 footer {
         padding-top: 1em;
@@ -112,7 +108,6 @@ footer {
         text-align: center;
         font-size: 110%;
 }
-
 
 /*Smartphones- skärmar max 480px */
  @media only screen and (max-width:480px) {
@@ -124,6 +119,10 @@ footer {
     img {
         width: 95%;
     }
+    .submain, .subsection{
+            border-top: 0.1em double $color-lighter;
+    }
+    
     
 /*Formulär */
    form{
@@ -148,7 +147,7 @@ footer {
     border-bottom: double 0.3em $color-lighter;
     h1{
      font-size: 3em;
-     text-shadow: $color-lighter 0.1em -0.1em 0.2em;
+     
      }
      h2{
      font-size: 1.5em;
@@ -157,16 +156,17 @@ footer {
      }
 }
    nav{
-    ul{
         padding: 1em 0.5em;
-     }
+
     a{
-        padding: 0em 0.5em;
-       font-size: 120%;
+
+       font-size: 125%;
     }
+  
 
     .active{
         font-size: 130%;
+        text-shadow: 0.05em -0.05em 0.1em;
     }
 }
 
@@ -174,7 +174,6 @@ footer {
         width: 100%;
 
         label {
-         text-align: right;
          display: block;
          float: left;
          padding-right: 1em;
@@ -209,11 +208,21 @@ footer {
      
     }
     .top{
-        
    padding: 0.5em;
-   border: blue dotted thick;
-    }
+   }
     
  }
+  @media print {
+    nav, .center {
+        display: none;
+    }
+   
+    .content {
+        width: 85%;
+    }
+    a::after {
+        content:" ("attr(href)") ";
+    }
+    }
     
  

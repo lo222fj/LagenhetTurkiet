@@ -72,19 +72,13 @@ nav .active {
   font-size: 110%; }
 
 .submain, .subsection {
-  padding-top: 1em;
-  border-top: 0.1em double #71354e;
-  border: solid green; }
+  padding-top: 1em; }
 
 .top {
-  padding-top: 1em;
-  border: solid blue; }
+  padding-top: 1em; }
 
 .center {
   border: 0.2em solid #71354e; }
-
-.container {
-  border: solid red; }
 
 footer {
   padding-top: 1em;
@@ -102,6 +96,9 @@ footer {
   img {
     width: 95%; }
 
+  .submain, .subsection {
+    border-top: 0.1em double #71354e; }
+
   /*Formulär */
   form {
     margin-top: 1em; }
@@ -118,25 +115,23 @@ footer {
     border-top: double 0.3em #71354e;
     border-bottom: double 0.3em #71354e; }
     header h1 {
-      font-size: 3em;
-      text-shadow: #71354e 0.1em -0.1em 0.2em; }
+      font-size: 3em; }
     header h2 {
       font-size: 1.5em;
       font-style: italic;
       margin-top: 0.3em; }
 
-  nav ul {
+  nav {
     padding: 1em 0.5em; }
-  nav a {
-    padding: 0em 0.5em;
-    font-size: 120%; }
-  nav .active {
-    font-size: 130%; }
+    nav a {
+      font-size: 125%; }
+    nav .active {
+      font-size: 130%;
+      text-shadow: 0.05em -0.05em 0.1em; }
 
   form {
     width: 100%; }
     form label {
-      text-align: right;
       display: block;
       float: left;
       padding-right: 1em;
@@ -164,5 +159,13 @@ footer {
     padding: 0.5em; }
 
   .top {
-    padding: 0.5em;
-    border: blue dotted thick; } }
+    padding: 0.5em; } }
+@media print {
+  nav, .center {
+    display: none; }
+
+  .content {
+    width: 85%; }
+
+  a::after {
+    content: " (" attr(href) ") "; } }
