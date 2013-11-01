@@ -102,9 +102,6 @@ footer {
   img {
     width: 95%; }
 
-  .container {
-    padding: 0 0.5em; }
-
   /*Formulär */
   form {
     margin-top: 1em; }
@@ -116,6 +113,18 @@ footer {
       width: 90%;
       margin-bottom: 0.7em; } }
 @media only screen and (min-width: 480px) {
+  header {
+    padding: 1em 0.5em;
+    border-top: double 0.3em #71354e;
+    border-bottom: double 0.3em #71354e; }
+    header h1 {
+      font-size: 3em;
+      text-shadow: #71354e 0.1em -0.1em 0.2em; }
+    header h2 {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-top: 0.3em; }
+
   nav ul {
     padding: 1em 0.5em; }
   nav a {
@@ -152,4 +161,8 @@ footer {
     float: right;
     width: 48%;
     max-width: 470px;
-    padding: 0.5em; } }
+    padding: 0.5em; }
+
+  .top {
+    padding: 0.5em;
+    border: blue dotted thick; } }
