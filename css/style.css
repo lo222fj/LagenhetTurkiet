@@ -36,6 +36,10 @@ h3 {
 a {
   color: #3d222e; }
 
+.center {
+  display: block;
+  margin: auto; }
+
 header {
   padding: 0.5em 0;
   border-top: double 0.2em #71354e;
@@ -90,10 +94,13 @@ footer {
 
 /*Smartphones- skärmar max 480px */
 @media only screen and (max-width: 480px) {
-  .container img {
+  .container {
     width: 100%;
     margin: 0 auto;
     padding: 0; }
+
+  img {
+    width: 95%; }
 
   .container {
     padding: 0 0.5em; }
@@ -109,6 +116,14 @@ footer {
       width: 90%;
       margin-bottom: 0.7em; } }
 @media only screen and (min-width: 480px) {
+  nav ul {
+    padding: 1em 0.5em; }
+  nav a {
+    padding: 0em 0.5em;
+    font-size: 120%; }
+  nav .active {
+    font-size: 130%; }
+
   form {
     width: 100%; }
     form label {
@@ -120,4 +135,21 @@ footer {
       width: 150px; }
     form input, form textarea {
       width: 300px;
-      margin-bottom: 1em; } }
+      margin-bottom: 1em; }
+
+  .subcontainer {
+    overflow: auto; }
+    .subcontainer img {
+      width: 95%; }
+
+  .subcontainerLeft {
+    float: left;
+    width: 48%;
+    max-width: 470px;
+    padding: 0.5em; }
+
+  .subcontainerRight {
+    float: right;
+    width: 48%;
+    max-width: 470px;
+    padding: 0.5em; } }

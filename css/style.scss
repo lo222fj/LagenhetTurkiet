@@ -50,6 +50,10 @@ h3{
 a{
     color: $color-darkest;
 }
+.center {
+    display: block;
+    margin: auto;
+}
 header{
     padding: 0.5em 0;   
     border-top: double 0.2em $color-lighter;
@@ -110,15 +114,16 @@ footer {
 }
 
 
-
 /*Smartphones- skärmar max 480px */
  @media only screen and (max-width:480px) {
-     .container img{
+     .container{
     width: 100%;
     margin: 0 auto;
     padding: 0;
     } 
-    
+    img {
+        width: 95%;
+    }
     .container {
         padding: 0 0.5em;
     }
@@ -139,7 +144,21 @@ footer {
  }
  
  @media only screen and (min-width:480px) {
-    form{
+   nav{
+    ul{
+        padding: 1em 0.5em;
+     }
+    a{
+        padding: 0em 0.5em;
+       font-size: 120%;
+    }
+
+    .active{
+        font-size: 130%;
+    }
+}
+
+   form{
         width: 100%;
 
         label {
@@ -155,6 +174,27 @@ footer {
             width: 300px;
             margin-bottom: 1em;
         }
+    
+    }
+    .subcontainer{
+        img{
+            width: 95%;
+        }
+        overflow: auto;
+    }
+    .subcontainerLeft{
+        float:left;
+        width: 48%;
+        max-width: 470px;
+        padding: 0.5em;
+        
+    }
+    .subcontainerRight{
+     float:right;
+     width: 48%;
+     max-width: 470px;
+     padding: 0.5em;
+     
     }
  }
     
