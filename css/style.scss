@@ -122,8 +122,7 @@ footer {
     .submain, .subsection{
             border-top: 0.1em double $color-lighter;
     }
-    
-    
+
 /*Formulär */
    form{
         margin-top: 1em;
@@ -137,82 +136,82 @@ footer {
             width: 90%;
             margin-bottom: 0.7em;
         }
+        .button{
+            margin-top: 0.5em;
+        }
    }
  }
  
- @media only screen and (min-width:480px) {
-  header{
+ @media only screen and (min-width:481px) {
+
+header{
     padding: 1em 0.5em;   
     border-top: double 0.3em $color-lighter;
     border-bottom: double 0.3em $color-lighter;
     h1{
      font-size: 3em;
-     
-     }
+    }
      h2{
-     font-size: 1.5em;
-     font-style: italic;
-    margin-top: 0.3em;
-     }
+        font-size: 1.5em;
+        font-style: italic;
+     margin-top: 0.3em;
+    }
 }
-   nav{
-        padding: 1em 0.5em;
-
+nav{
+    padding: 1em 0.5em; 
     a{
-
        font-size: 125%;
     }
-  
-
+ 
     .active{
         font-size: 130%;
         text-shadow: 0.05em -0.05em 0.1em;
     }
 }
 
-   form{
-        width: 100%;
+form{
+    width: 100%;
 
-        label {
+    label {
          display: block;
          float: left;
          padding-right: 1em;
-            clear: left;
-            width: 150px;
-         }
-
-        input, textarea {
-            width: 300px;
-            margin-bottom: 1em;
-        }
-    
+         clear: left;
+         width: 150px;
     }
-    .subcontainer{
-        img{
-            width: 95%;
+    input, textarea {
+        width: 300px;
+        margin-bottom: 1em;
+    }
+}
+
+.subcontainer{
+    img{
+        width: 95%;
         }
         overflow: auto;
-    }
-    .subcontainerLeft{
-        float:left;
-        width: 47%;
-        max-width: 450px;
-        padding: 0.5em;
-        
-    }
-    .subcontainerRight{
+}
+.subcontainerLeft{
+    float:left;
+    width: 47%;
+    max-width: 450px;
+    padding: 0.5em;
+}
+.subcontainerRight{
      float:left;
      width: 47%;
      max-width: 450px;
      padding: 0.5em;
-     
-    }
-    .top{
+}
+.top{
    padding: 0.5em;
-   }
+}
+.center{
+   max-width: 96%;
+}
     
  }
-  @media print {
+@media print {
     nav, .center {
         display: none;
     }
@@ -223,6 +222,6 @@ footer {
     a::after {
         content:" ("attr(href)") ";
     }
-    }
+ }
     
  
