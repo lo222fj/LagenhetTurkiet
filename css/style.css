@@ -126,7 +126,8 @@ footer {
   nav {
     padding: 1em 0.5em; }
     nav a {
-      font-size: 125%; }
+      font-size: 125%;
+      padding: 0em 0.4em 0.5em 0em; }
     nav .active {
       font-size: 130%;
       text-shadow: 0.05em -0.05em 0.1em; }
